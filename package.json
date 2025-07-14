@@ -1,19 +1,19 @@
 {
-    "name": "{repoName}",
-    "description": "AWS SDK Javascript V3 - {repoName} for Browser",
-    "version": "{repoVersion}",
+    "name": "client-cognito-sync",
+    "description": "AWS SDK Javascript V3 - client-cognito-sync for Browser",
+    "version": "3.844.0",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "webpack"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/aws-sdk/{repoName}.git"
+        "url": "https://github.com/aws-sdk/client-cognito-sync.git"
     },
     "license": "Apache-2.0",
     "keywords": [
         "aws-sdk",
-        "{repoName}",
+        "client-cognito-sync",
         "browser",
         "s3",
         "module",
@@ -29,9 +29,9 @@
         "url": "https://github.com/sponsors/suryavaddiraju"
     },
     "bugs": {
-        "url": "https://github.com/aws-sdk/{repoName}/issues"
+        "url": "https://github.com/aws-sdk/client-cognito-sync/issues"
     },
-    "homepage": "https://github.com/aws-sdk/{repoName}",
+    "homepage": "https://github.com/aws-sdk/client-cognito-sync",
     "files": [
         ".github/CODEOWNERS",
         ".github/CODE_OF_CONDUCT.md",
@@ -52,7 +52,7 @@
         "index.min.mjs"
     ],
     "dependencies": {
-        "@aws-sdk/{repoName}":"{repoVersion}"
+        "@aws-sdk/client-cognito-sync": "^3.844.0"
     },
     "devDependencies": {
         "webpack": "^5.100.1",
